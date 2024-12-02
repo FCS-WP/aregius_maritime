@@ -1,62 +1,109 @@
-
-.form-custom-booking{
+.form-custom-booking {
     display: flex;
     flex-wrap: wrap;
-    label{
-      width: 100%;
+
+    label {
+        width: 100%;
     }
-    .elementor-field-group{
-      padding: 10px;
+
+    .elementor-field-group {
+        padding: 10px;
     }
-    h3{
-      width: 100%;
+
+    h3 {
+        width: 100%;
     }
-    .elementor-col-25{
-      padding: 10px;
+
+    .elementor-col-25 {
+        padding: 10px;
     }
-    .btn-action-form{
-      button{
-       top: 100px;
-      }
-    }
-    input{
-      margin-bottom: 0px !important;
-    }
-    .btn-action-form{
-  
-      #minus-row{
-        right: -40px;
-      }
-      button{
-        background-color: transparent;
-        padding: 0px;
-        position: absolute;
-        right: -15px;
-        top: 50px;
-        z-index: 9999;
-        img{
-          width: 16px;
+
+    .btn-action-form {
+        button {
+            top: 100px;
         }
-      }  
     }
-  }
-  
-  #input-container{
+
+    input {
+        margin-bottom: 0px !important;
+    }
+
+    .btn-action-form {
+
+        #minus-row {
+            right: -40px;
+        }
+
+        button {
+            background-color: transparent;
+            padding: 0px;
+            position: absolute;
+            right: -15px;
+            top: 50px;
+            z-index: 9999;
+
+            img {
+                width: 16px;
+            }
+        }
+    }
+}
+
+#input-container {
     width: 100%;
-  
+
     .input-row {
-      display: flex;
-      position: relative;
-      
+        display: flex;
+        position: relative;
+
     }
-  }
-  
-  .btn-add-row-origin{
+}
+
+.btn-add-row-origin {
     top: 50px !important;
-  }
-  
-  .row-onboard{
+}
+
+.row-onboard {
     position: relative;
     width: 100%;
     display: flex;
-  }
+}
+
+@media (max-width: 768px) {
+    .row-onboard {
+        flex-wrap: wrap;
+
+        .elementor-col-25 {
+            width: 100%;
+        }
+    }
+
+    .input-row {
+        flex-wrap: wrap;
+
+        .elementor-col-25 {
+            width: 100%;
+        }
+    }
+
+    .form-custom-booking {
+        .btn-action-form button {
+            top: 10px !important;
+            right: 10px;
+        }
+    }
+
+    .form-custom-booking {
+        .btn-action-form {
+            #minus-row {
+                right: 10px;
+            }
+        }
+    }
+
+    .input-row {
+        #add-more-row {
+            right: 40px;
+        }
+    }
+}

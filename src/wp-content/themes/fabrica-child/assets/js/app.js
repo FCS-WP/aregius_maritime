@@ -39,7 +39,7 @@ var elements = document.querySelectorAll('.add-row');
                 Mobile number							</label>
                 <input size="1" type="text" name="phone_onboard[]" id="phone_onboard" class="elementor-field elementor-size-sm elementor-field-textual fill_inited" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
             </div>
-            <div class="btn-action-form"><button id="add-more-row"><img src="/wp-content/themes/weiboo-child/assets/icons/add.png"></button><button id="minus-row"><img src="/wp-content/themes/weiboo-child/assets/icons/minus.png"></button></div>
+            <div class="btn-action-form"><button id="add-more-row"><img src="/wp-content/themes/fabrica-child/assets/icons/add.png"></button><button id="minus-row"><img src="/wp-content/themes/fabrica-child/assets/icons/minus.png"></button></div>
             `;
             // Attach click event for the "add-more-row" button
             newInputRow.querySelector('#add-more-row').onclick = function(event) {
